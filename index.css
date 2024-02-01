@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.cal-bg {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cal-inp-con {
+    text-align: center;
+}
+
+.cal-btn-con {
+    align-self: center;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin: 40px 0;
+}
+
+input {
+    height: 50px;
+    width: 75%;
+    background: #fff;
+    color: #00000090;
+    padding: 15px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+button {
+    height: 60px;
+    width: 60px;
+    color: #00000090;
+    box-shadow: 5px -10px 155px -6px #fff;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    transition: all .2s ease-in-out;
+    border-radius: 20pc;
+}
+
+button:hover {
+    background: linear-gradient(#ff3838, #fff);
+    box-shadow: -5px -10px 155px -6px #ff3838;
+}
+
+button:focus {
+    background: linear-gradient(#fff, yellow);
+    box-shadow: -5px -10px 155px -6px yellow;
+}
+
+
+.btn-oper {
+    background-color: #0febff;
+    box-shadow: 5px -10px 155px -6px #0febff;
+    color: #fff;
+}
+
+.btn-oper:hover {
+    background: linear-gradient(#abf00a, #860bde);
+    box-shadow: -5px -10px 155px -6px #abf00a;
+}
+
+.btn-oper:focus {
+    background: linear-gradient(#fff, #ff1290);
+    box-shadow: -5px -10px 155px -6px #ff1290;
+}
+
+
+#btnEqual {
+    background-color: #ff9900;
+}
